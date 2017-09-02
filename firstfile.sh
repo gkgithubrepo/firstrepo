@@ -1,4 +1,3 @@
 #/bin/bash
-
-date
-echo "gittest build is success"
+STRING="Hellow git"
+echo $STRING
