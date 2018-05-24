@@ -1,5 +1,5 @@
 ---
-- hosts: gk
+- hosts: web
   become: yes
   tasks:
     - name: Install the package "apache2"
