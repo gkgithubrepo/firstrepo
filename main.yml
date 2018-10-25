@@ -1,5 +1,5 @@
 ---
-- hosts: web
+- hosts: localhost
   become: yes
   tasks:
     - name: Install the package "apache2"
